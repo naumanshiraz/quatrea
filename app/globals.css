@@ -246,3 +246,7 @@ footer ul{justify-self:start}
 
 .ph{height:auto}
 .hero .row .ph{aspect-ratio:3/2;border-radius:120px 120px 10px 10px}
+
+.hero .row .ph{height:170px;aspect-ratio:auto;border-radius:100px 100px 10px 10px}
+.card .ph{height:175px;aspect-ratio:auto}
+@media(max-width:560px){.hero .row .ph{height:130px}}
