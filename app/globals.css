@@ -228,9 +228,9 @@ footer li:last-child{flex-basis:100%}
 .card .ph{aspect-ratio:2/1;object-position:center 42%;border-radius:24px 24px 0 0;margin-bottom:1rem}
 .card h3{font-size:1.5rem}
 .card .pr{margin-top:.4rem}
-footer{grid-template-columns:1.3fr 1fr;justify-items:stretch;text-align:left;align-items:start;gap:3rem 4rem}
+footer{grid-template-columns:1.3fr 1fr;justify-items:stretch;text-align:left;align-items:center;gap:3rem 4rem}
 footer form{justify-content:flex-start;max-width:480px}
-footer ul{flex-direction:column;flex-wrap:nowrap;align-items:flex-start;gap:.7rem;justify-self:end;width:min(100%,260px)}
+footer ul{flex-direction:row;flex-wrap:nowrap;align-items:flex-start;gap:.7rem;justify-self:end;}
 footer li:last-child{flex-basis:auto}
 .copy{grid-column:1/-1;width:100%;opacity:.6;font-size:.85rem;border-top:1px solid rgba(128,128,128,.3);padding-top:1.5rem;text-align:center}
 .car{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;width:100%;overflow:visible;margin-inline:0}
@@ -247,6 +247,6 @@ footer ul{justify-self:start}
 .ph{height:auto}
 .hero .row .ph{aspect-ratio:3/2;border-radius:120px 120px 10px 10px}
 
-.hero .row .ph{height:170px;aspect-ratio:auto;border-radius:100px 100px 10px 10px}
-.card .ph{height:175px;aspect-ratio:auto}
+.hero .row .ph{height:450px;aspect-ratio:auto;border-radius:100px 100px 10px 10px}
+.card .ph{height:275px;aspect-ratio:auto}
 @media(max-width:560px){.hero .row .ph{height:130px}}

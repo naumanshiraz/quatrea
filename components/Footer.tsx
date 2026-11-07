@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react";
 import TLink from "@/components/TLink";
 import { useStore } from "@/lib/store";
+import { FaInstagram, FaPinterest } from "react-icons/fa6";
 
 export default function Footer() {
   const { notify } = useStore();
@@ -30,9 +31,13 @@ export default function Footer() {
         <li><TLink href="/about">The House</TLink></li>
         <li><TLink href="/bag">Your bag</TLink></li>
         <li style={{ marginTop: "1rem" }}>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={24} />
+          </a>
           {"  "}
-          <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">Pinterest</a>
+          <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">
+            <FaPinterest size={24} />
+          </a>
         </li>
       </ul>
       <p className="copy">© 2026 Quatréa Parfums</p>
