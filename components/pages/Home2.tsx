@@ -81,7 +81,7 @@ export default function Home2() {
       <section>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.2rem", marginBottom: "2.5rem", textAlign: "center" }}>
           <h2 className="rv">Wear the season</h2>
-          <div className="qty">
+          <div className="qty carnav">
             <button aria-label="Scroll left" onClick={() => track.current?.scrollBy({ left: -340, behavior: "smooth" })}>‹</button>
             <button aria-label="Scroll right" onClick={() => track.current?.scrollBy({ left: 340, behavior: "smooth" })}>›</button>
           </div>

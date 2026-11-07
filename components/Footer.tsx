@@ -34,8 +34,8 @@ export default function Footer() {
           {"  "}
           <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">Pinterest</a>
         </li>
-        <li style={{ marginTop: "1.5rem", opacity: 0.6, fontSize: ".85rem" }}>© 2026 Quatréa Parfums</li>
       </ul>
+      <p className="copy">© 2026 Quatréa Parfums</p>
     </footer>
   );
 }
