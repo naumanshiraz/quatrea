@@ -230,7 +230,7 @@ footer li:last-child{flex-basis:100%}
 .card .pr{margin-top:.4rem}
 footer{grid-template-columns:1.3fr 1fr;justify-items:stretch;text-align:left;align-items:center;gap:3rem 4rem}
 footer form{justify-content:flex-start;max-width:480px}
-footer ul{flex-direction:row;flex-wrap:nowrap;align-items:flex-start;gap:.7rem;justify-self:end;}
+footer ul{flex-direction:row;flex-wrap:nowrap;align-items:flex-start;justify-self:s;}
 footer li:last-child{flex-basis:auto}
 .copy{grid-column:1/-1;width:100%;opacity:.6;font-size:.85rem;border-top:1px solid rgba(128,128,128,.3);padding-top:1.5rem;text-align:center}
 .car{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;width:100%;overflow:visible;margin-inline:0}
