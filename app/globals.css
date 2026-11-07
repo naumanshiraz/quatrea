@@ -243,3 +243,6 @@ footer ul{justify-self:start}
 .car{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(var(--px) * -1);padding-inline:var(--px);scroll-padding-inline:var(--px);width:auto}
 .cd{flex:0 0 min(300px,78vw)}
 }
+
+.ph{height:auto}
+.hero .row .ph{aspect-ratio:3/2;border-radius:120px 120px 10px 10px}
